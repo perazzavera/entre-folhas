@@ -1,15 +1,16 @@
+import { ToastContainer } from "react-toastify";
 import { BotaoAcao } from "../../../../components/Botoes";
 
 export default function FormularioCartao({
   cartao,
-  currentStep,
-  setCurrentStep,
   cvc,
   validade,
   handleCartaoChange,
   handleValidadeChange,
   handleCvcChange,
-  clearCart,
+  isProcessing,
+  camposPreenchidos,
+  handleContinuar,
 }) {
   return (
     <form className="grid grid-cols-1 gap-4 lg:my-10">
@@ -66,14 +67,22 @@ export default function FormularioCartao({
         </div>
       </div>
       <div className="flex justify-center h-full items-center mt-4">
-        <BotaoAcao
-          onClick={() => {
-            setCurrentStep(currentStep + 1);
-            clearCart();
-          }}
+        <button
+          onClick={handleContinuar}
+          className={`bg-verde-escuro text-verde-claro p-3 rounded-lg hover:bg-verde-oliva transition-all duration-300 flex justify-center items-center w-fit text-center"
+                  ${
+                    !camposPreenchidos || isProcessing
+                      ? "opacity-50 cursor-not-allowed pointer-events-none"
+                      : ""
+                  }, 
+                `}
         >
           Finalizar Pedido
-        </BotaoAcao>
+        </button>
+        <ToastContainer
+          position="bottom-right"
+          style={{ marginTop: "4rem", zIndex: "100" }}
+        />
       </div>
     </form>
   );

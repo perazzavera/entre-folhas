@@ -9,6 +9,7 @@ import Carrinho from "./pages/Carrinho";
 import SobreNos from "./pages/SobreNos";
 import Contato from "./pages/Contato";
 import Checkout from "./pages/Checkout";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               <Route path="/contato" element={<Contato />} />
               <Route path="/carrinho" element={<Carrinho />} />
               <Route path="/checkout" element={<Checkout />} />
+              <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
         </CartProvider>

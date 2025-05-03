@@ -40,7 +40,6 @@ export default function Checkout() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [currentStep]);
 
-  console.log(formData);
   return (
     <section className="pt-16 px-4 lg:px-20 bg-bege">
       <Steps steps={steps} currentStep={currentStep} />
@@ -70,6 +69,8 @@ export default function Checkout() {
                 currentStep={currentStep}
                 setCurrentStep={setCurrentStep}
                 clearCart={clearCart}
+                formData={formData}
+                setFormData={setFormData}
               />
             </div>
           )}

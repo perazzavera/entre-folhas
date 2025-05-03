@@ -5,7 +5,8 @@ import { useNavigate } from "react-router-dom";
 
 export default function Summary() {
   const navigate = useNavigate();
-  const { getCartTotal, metodosEnvio, formData } = useContext(CartContext);
+  const { getCartTotal, metodosEnvio, formData, cart } =
+    useContext(CartContext);
   const subtotal = getCartTotal();
   const frete = Number(
     metodosEnvio.find((item) => item.label === formData.envio)?.valor || 0
@@ -48,7 +49,16 @@ export default function Summary() {
         >
           Continuar Comprando
         </BotaoAcao>
-        <BotaoLink to="/checkout">Finalizar Compra</BotaoLink>
+        <BotaoLink
+          to={cart.length === 0 ? "#" : "/checkout"}
+          className={
+            cart.length === 0
+              ? "cursor-not-allowed opacity-50 pointer-events-none"
+              : ""
+          }
+        >
+          Finalizar Compra
+        </BotaoLink>
       </div>
     </div>
   );

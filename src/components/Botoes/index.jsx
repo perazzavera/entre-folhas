@@ -11,9 +11,10 @@ export function BotaoLink({ to, children }) {
   );
 }
 
-export function BotaoAcao({ type, children, onClick, posicao }) {
+export function BotaoAcao({ type, children, onClick, posicao, disabled }) {
   return (
     <button
+      disabled={disabled}
       onClick={onClick}
       type={type}
       className={`bg-verde-escuro text-verde-claro p-3 rounded-lg hover:bg-verde-oliva transition-all duration-300 cursor-pointer text-${posicao}`}
