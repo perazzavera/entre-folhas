@@ -1,0 +1,544 @@
+[
+  {
+    "id": "1",
+    "nome": "Suculenta Jade",
+    "preco": 24.9,
+    "subcategoria": "Suculentas",
+    "tipoVaso": "Cerâmica",
+    "imagens": [
+      "/images/jade-1.jpeg",
+      "/images/jade-2.jpg",
+      "/images/jade-3.jpeg"
+    ],
+    "descricao": "Suculenta Jade em vaso de cerâmica branco, ideal para mesas e prateleiras.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Cerâmica esmaltada",
+      "Dimensões: 12cm (altura) x 10cm (diâmetro)",
+      "Rega: 1 vez por semana",
+      "Luminosidade: Meia-sombra",
+      "Inclui etiqueta de cuidados básicos"
+    ]
+  },
+  {
+    "id": "2",
+    "nome": "Mini Samambaia",
+    "preco": 29.5,
+    "subcategoria": "samambaias",
+    "tipoVaso": "Vidro",
+    "imagens": [
+      "/images/mini-samambaia1.jpeg",
+      "/images/mini-samambaia-2.jpeg"
+    ],
+    "descricao": "Mini samambaia plantada em vaso de vidro reciclado. Ideal para ambientes úmidos.",
+    "categorias": ["Plantas", "Novidades"],
+    "novo": true,
+    "caracteristicas": [
+      "Material do vaso: Vidro reciclado",
+      "Dimensões: 18cm (altura) x 12cm (diâmetro)",
+      "Rega: 2-3 vezes por semana",
+      "Luminosidade: Sombra ou luz indireta",
+      "Feito à mão com materiais sustentáveis"
+    ]
+  },
+  {
+    "id": "4",
+    "nome": "Kokedama de Avenca",
+    "preco": 35.0,
+    "subcategoria": "Kokedamas",
+    "tipoVaso": "Musgo",
+    "imagens": [
+      "/images/kokedama-avenca-1.jpeg",
+      "/images/kokedama-avenca-2.jpeg"
+    ],
+    "descricao": "Técnica japonesa sem vaso. A avenca cresce em uma bola de musgo suspensa.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material: Bola de musgo sphagnum e argila",
+      "Dimensões: Diâmetro de 15cm",
+      "Rega: Mergulhar em água 1 vez por semana",
+      "Luminosidade: Sombra",
+      "Inclui fio de nylon para suspensão"
+    ]
+  },
+  {
+    "id": "5",
+    "nome": "Suculenta Zebra",
+    "preco": 19.9,
+    "subcategoria": "Suculentas",
+    "tipoVaso": "Cimento",
+    "imagens": [
+      "/images/zebra-1.jpeg",
+      "/images/zebra-2.jpeg",
+      "/images/zebra-3.jpeg"
+    ],
+    "descricao": "Pequena suculenta com folhas listradas em vaso geométrico de cimento.",
+    "categorias": ["Plantas", "Novidades"],
+    "novo": true,
+    "caracteristicas": [
+      "Material do vaso: Cimento pigmentado",
+      "Dimensões: 8cm (altura) x 9cm (diâmetro)",
+      "Rega: 1 vez a cada 10 dias",
+      "Luminosidade: Sol pleno",
+      "Design moderno e minimalista"
+    ]
+  },
+  {
+    "id": "6",
+    "nome": "Samambaia Americana",
+    "preco": 34.9,
+    "subcategoria": "samambaias",
+    "tipoVaso": "Cerâmica",
+    "imagens": ["/images/americana-1.jpeg", "/images/americana-2.jpeg"],
+    "descricao": "Samambaia volumosa em vaso de cerâmica pintado à mão.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Cerâmica artesanal",
+      "Dimensões: 25cm (altura) x 20cm (diâmetro)",
+      "Rega: 3 vezes por semana",
+      "Luminosidade: Luz indireta",
+      "Pintura manual exclusiva"
+    ]
+  },
+  {
+    "id": "7",
+    "nome": "Mini Bonsai Ficus",
+    "preco": 59.9,
+    "subcategoria": "miniarvores",
+    "tipoVaso": "Vidro",
+    "imagens": ["/images/bonsai-1.jpeg", "/images/bonsai-2.jpeg"],
+    "descricao": "Mini bonsai da espécie Ficus em vaso transparente com pedras decorativas.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Vidro temperado",
+      "Dimensões: 18cm (altura) x 15cm (diâmetro)",
+      "Rega: 2 vezes por semana",
+      "Luminosidade: Luz filtrada",
+      "Inclui pedras brancas decorativas"
+    ]
+  },
+  {
+    "id": "8",
+    "nome": "Kokedama de Musgo e Samambaia",
+    "preco": 39.0,
+    "subcategoria": "Kokedamas",
+    "tipoVaso": "Musgo",
+    "imagens": [
+      "/images/kokedama-samambaia-1.jpeg",
+      "/images/kokedama-samambaia-2.jpeg"
+    ],
+    "descricao": "Mistura de musgo com samambaia, formando uma kokedama exuberante.",
+    "categorias": ["Plantas", "Novidades"],
+    "novo": true,
+    "caracteristicas": [
+      "Material: Musgo natural e substrato orgânico",
+      "Dimensões: Diâmetro de 18cm",
+      "Rega: Borrifar água diariamente",
+      "Luminosidade: Sombra úmida",
+      "Feito à mão por artesãos especializados"
+    ]
+  },
+  {
+    "id": "9",
+    "nome": "Cacto Ouriço",
+    "preco": 22.5,
+    "subcategoria": "Cactos",
+    "tipoVaso": "Terracota",
+    "imagens": ["/images/ourico-1.jpg", "/images/ourico-2.jpeg"],
+    "descricao": "Cacto pequeno e arredondado em vaso de terracota. Baixa manutenção.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Terracota natural",
+      "Dimensões: 10cm (altura) x 8cm (diâmetro)",
+      "Rega: 1 vez a cada 15 dias",
+      "Luminosidade: Sol direto",
+      "Vaso poroso que evita encharcamento"
+    ]
+  },
+  {
+    "id": "11",
+    "nome": "Suculenta Rosa-do-Deserto",
+    "preco": 65.0,
+    "subcategoria": "Suculentas",
+    "tipoVaso": "Cerâmica Pintada",
+    "imagens": [
+      "/images/rosa-deserto-1.jpeg",
+      "/images/rosa-deserto-2.jpeg",
+      "/images/rosa-deserto-3.jpeg"
+    ],
+    "descricao": "Variedade rara de suculenta com flores rosadas. Vaso artesanal.",
+    "categorias": ["Plantas", "Novidades"],
+    "novo": true,
+    "caracteristicas": [
+      "Material do vaso: Cerâmica pintada à mão",
+      "Dimensões: 15cm (altura) x 12cm (diâmetro)",
+      "Rega: 1 vez por mês (resistente à seca)",
+      "Luminosidade: Sol pleno",
+      "Cada peça é única com variações naturais"
+    ]
+  },
+  {
+    "id": "12",
+    "nome": "Lírio da Paz",
+    "preco": 45.0,
+    "subcategoria": "Florais",
+    "tipoVaso": "Cerâmica Esmaltada",
+    "imagens": [
+      "/images/lirio-paz-1.jpeg",
+      "/images/lirio-paz-2.jpeg",
+      "/images/lirio-paz-3.jpeg"
+    ],
+    "descricao": "Planta purificadora de ar com flores brancas elegantes.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Cerâmica esmaltada",
+      "Dimensões: 20cm (altura) x 15cm (diâmetro)",
+      "Rega: 2 vezes por semana",
+      "Luminosidade: Luz indireta brilhante",
+      "Purifica o ar conforme estudos da NASA"
+    ]
+  },
+  {
+    "id": "13",
+    "nome": "Kokedama de Suculenta",
+    "preco": 32.0,
+    "subcategoria": "Kokedamas",
+    "tipoVaso": "Musgo",
+    "imagens": [
+      "/images/kokedama-suculenta-1.jpeg",
+      "/images/kokedama-suculenta-2.jpeg"
+    ],
+    "descricao": "Suculenta montada em kokedama, perfeita para pendurar em janelas.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material: Musgo sphagnum e substrato para suculentas",
+      "Dimensões: Diâmetro de 12cm",
+      "Rega: 1 vez a cada 10 dias (mergulhar)",
+      "Luminosidade: Meia-sombra",
+      "Inclui corda de juta para suspensão"
+    ]
+  },
+  {
+    "id": "14",
+    "nome": "Peperômia Folha de Coração",
+    "preco": 38.5,
+    "subcategoria": "Folhagens",
+    "tipoVaso": "Vidro Colorido",
+    "imagens": ["/images/peperomia-1.jpeg", "/images/peperomia-2.jpeg"],
+    "descricao": "Folhas em formato de coração.",
+    "categorias": ["Plantas", "Novidades"],
+    "novo": true,
+    "caracteristicas": [
+      "Material do vaso: Vidro colorido artesanal",
+      "Dimensões: 14cm (altura) x 11cm (diâmetro)",
+      "Rega: 1 vez por semana",
+      "Luminosidade: Luz indireta",
+      "Folhas carnudas que retêm água"
+    ]
+  },
+  {
+    "id": "15",
+    "nome": "Bambu da Sorte",
+    "preco": 29.0,
+    "subcategoria": "miniarvores",
+    "tipoVaso": "Vidro",
+    "imagens": [
+      "/images/bambu-sorte-1.jpeg",
+      "/images/bambu-sorte-2.jpeg",
+      "/images/bambu-sorte-3.jpeg"
+    ],
+    "descricao": "Traz prosperidade segundo o Feng Shui. Cultivado em água.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Vidro com pedras decorativas",
+      "Dimensões: 18cm (altura) x 10cm (diâmetro)",
+      "Rega: Manter água limpa (trocar semanalmente)",
+      "Luminosidade: Sombra",
+      "Número de hastes: 3 (símbolo de felicidade)"
+    ]
+  },
+  {
+    "id": "16",
+    "nome": "Samambaia Boston",
+    "preco": 42.0,
+    "subcategoria": "samambaias",
+    "tipoVaso": "Cerâmica",
+    "imagens": [
+      "/images/samambaia-boston-1.jpeg",
+      "/images/samambaia-boston-2.jpeg"
+    ],
+    "descricao": "Folhagem densa e pendente, ideal para vasos altos.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Cerâmica azul pintada à mão",
+      "Dimensões: 30cm (altura) x 25cm (diâmetro)",
+      "Rega: 3 vezes por semana",
+      "Luminosidade: Luz filtrada",
+      "Folhagem pode atingir até 60cm de comprimento"
+    ]
+  },
+  {
+    "id": "17",
+    "nome": "Cacto Rabo-de-Gato",
+    "preco": 31.9,
+    "subcategoria": "Cactos",
+    "tipoVaso": "Cimento",
+    "imagens": ["/images/rabo-gato-1.jpeg", "/images/rabo-gato-2.jpeg"],
+    "descricao": "Cacto pendente com textura macia e formato único.",
+    "categorias": ["Plantas", "Novidades"],
+    "novo": true,
+    "caracteristicas": [
+      "Material do vaso: Cimento minimalista",
+      "Dimensões: 12cm (altura) x 10cm (diâmetro)",
+      "Rega: 1 vez a cada 20 dias",
+      "Luminosidade: Sol pleno",
+      "Crescimento pendente (ideal para prateleiras altas)"
+    ]
+  },
+  {
+    "id": "18",
+    "nome": "Kokedama de Lavanda",
+    "preco": 47.0,
+    "subcategoria": "Kokedamas",
+    "tipoVaso": "Musgo",
+    "imagens": [
+      "/images/kokedama-lavanda-1.jpeg",
+      "/images/kokedama-lavanda-2.jpeg"
+    ],
+    "descricao": "Lavanda aromática em kokedama para ambientes relaxantes.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material: Musgo e substrato para ervas",
+      "Dimensões: Diâmetro de 14cm",
+      "Rega: Borrifar água a cada 3 dias",
+      "Luminosidade: Sol direto (pelo menos 4h/dia)",
+      "Aroma calmante natural"
+    ]
+  },
+  {
+    "id": "19",
+    "nome": "Costela-de-Adão",
+    "preco": 89.9,
+    "subcategoria": "Folhagens",
+    "tipoVaso": "Fibra Natural",
+    "imagens": ["/images/costela-1.jpeg", "/images/costela-2.jpeg"],
+    "descricao": "Folhas grandes e recortadas, tendência em decoração.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Fibra de coco sustentável",
+      "Dimensões: 40cm (altura) x 30cm (diâmetro)",
+      "Rega: 2 vezes por semana",
+      "Luminosidade: Luz indireta brilhante",
+      "Folhas podem atingir até 50cm de largura"
+    ]
+  },
+  {
+    "id": "20",
+    "nome": "Suculenta Echeveria Roxa",
+    "preco": 28.0,
+    "subcategoria": "Suculentas",
+    "tipoVaso": "Cerâmica",
+    "imagens": [
+      "/images/echeveria-1.jpeg",
+      "/images/echeveria-2.jpeg",
+      "/images/echeveria-3.jpeg"
+    ],
+    "descricao": "Suculenta com tonalidades arroxeadas e formato de roseta.",
+    "categorias": ["Plantas", "Novidades"],
+    "novo": true,
+    "caracteristicas": [
+      "Material do vaso: Cerâmica rosa fosco",
+      "Dimensões: 10cm (altura) x 9cm (diâmetro)",
+      "Rega: 1 vez a cada 12 dias",
+      "Luminosidade: Sol pleno (intensifica a cor roxa)",
+      "Muda de cor conforme as estações"
+    ]
+  },
+  {
+    "id": "21",
+    "nome": "Espada-de-São-Jorge",
+    "preco": 36.0,
+    "subcategoria": "Folhagens",
+    "tipoVaso": "Cimento",
+    "imagens": [
+      "/images/espada-1.jpeg",
+      "/images/espada-2.jpeg",
+      "/images/espada-3.jpeg"
+    ],
+    "descricao": "Planta resistente e purificadora de ar, ótima para interiores.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Cimento cinza industrial",
+      "Dimensões: 25cm (altura) x 12cm (diâmetro)",
+      "Rega: 1 vez a cada 15 dias",
+      "Luminosidade: Sombra ou luz artificial",
+      "Resistente a pragas e doenças"
+    ]
+  },
+  {
+    "id": "22",
+    "nome": "Kokedama de Filodendro",
+    "preco": 44.5,
+    "subcategoria": "Kokedamas",
+    "tipoVaso": "Musgo",
+    "imagens": [
+      "/images/kokedama-filodendro-1.jpeg",
+      "/images/kokedama-filodendro-2.jpeg"
+    ],
+    "descricao": "Filodendro em kokedama, folhas verdes brilhantes e pendentes.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material: Musgo e substrato rico em nutrientes",
+      "Dimensões: Diâmetro de 16cm",
+      "Rega: Borrifar água 2 vezes por semana",
+      "Luminosidade: Luz indireta",
+      "Crescimento rápido e vigoroso"
+    ]
+  },
+  {
+    "id": "23",
+    "nome": "Mini Cactário",
+    "preco": 55.0,
+    "subcategoria": "Cactos",
+    "tipoVaso": "Madeira",
+    "imagens": [
+      "/images/cactario-1.jpeg",
+      "/images/cactario-2.jpeg",
+      "/images/cactario-3.jpeg"
+    ],
+    "descricao": "Kit com 3 cactos diferentes em bandeja de madeira.",
+    "categorias": ["Plantas", "Novidades"],
+    "novo": true,
+    "caracteristicas": [
+      "Material do vaso: Madeira reciclada tratada",
+      "Dimensões: 15cm (comprimento) x 10cm (largura)",
+      "Rega: 1 vez a cada 15 dias (para todos)",
+      "Luminosidade: Sol direto",
+      "Inclui: Cacto bola, cacto dedo e cacto estrela"
+    ]
+  },
+  {
+    "id": "24",
+    "nome": "Jiboia Variegada",
+    "preco": 52.0,
+    "subcategoria": "Folhagens",
+    "tipoVaso": "Cerâmica",
+    "imagens": ["/images/jiboia-1.jpeg", "/images/jiboia-2.jpeg"],
+    "descricao": "Folhas com manchas cremes, perfeita para prateleiras altas.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Cerâmica branca fosca",
+      "Dimensões: 20cm (altura) x 15cm (diâmetro)",
+      "Rega: 1 vez por semana",
+      "Luminosidade: Luz indireta (mantém a variegata)",
+      "Pode ser cultivada como trepadeira ou pendente"
+    ]
+  },
+  {
+    "id": "25",
+    "nome": "Kokedama de Orquídea",
+    "preco": 79.9,
+    "subcategoria": "Kokedamas",
+    "tipoVaso": "Musgo",
+    "imagens": [
+      "/images/kokedama-orquidea-1.jpeg",
+      "/images/kokedama-orquidea-2.jpeg"
+    ],
+    "descricao": "Orquídea Phalaenopsis montada em kokedama elegante.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material: Musgo sphagnum e casca de pinus",
+      "Dimensões: Diâmetro de 18cm",
+      "Rega: Mergulhar em água 1 vez por semana",
+      "Luminosidade: Luz filtrada",
+      "Floração: 2 a 3 vezes por ano"
+    ]
+  },
+  {
+    "id": "26",
+    "nome": "Suculenta Colar-de-Pérolas",
+    "preco": 33.0,
+    "subcategoria": "Suculentas",
+    "tipoVaso": "Vidro",
+    "imagens": ["/images/colar-perola-1.jpeg", "/images/colar-perola-2.jpeg"],
+    "descricao": "Suculenta pendente com bolinhas verdes, ótima para hanging pots.",
+    "categorias": ["Plantas", "Novidades"],
+    "novo": true,
+    "caracteristicas": [
+      "Material do vaso: Vidro suspenso com gancho",
+      "Dimensões: 15cm (altura) x 12cm (diâmetro)",
+      "Rega: 1 vez a cada 10 dias",
+      "Luminosidade: Meia-sombra",
+      "Crescimento rápido (formando 'colares')"
+    ]
+  },
+  {
+    "id": "27",
+    "nome": "Palmeira-Leque",
+    "preco": 120.0,
+    "subcategoria": "Palmeira",
+    "tipoVaso": "Fibra Natural",
+    "imagens": ["/images/leque-1.jpeg", "/images/leque-2.jpeg"],
+    "descricao": "Palmeira de interior com folhas em formato de leque.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Fibra de coco e metal",
+      "Dimensões: 60cm (altura) x 40cm (diâmetro)",
+      "Rega: 2 vezes por semana",
+      "Luminosidade: Luz indireta brilhante",
+      "Folhas podem atingir até 50cm de diâmetro"
+    ]
+  },
+  {
+    "id": "29",
+    "nome": "Antúrio Vermelho",
+    "preco": 68.0,
+    "subcategoria": "Florais",
+    "tipoVaso": "Cerâmica",
+    "imagens": ["/images/anturio-1.jpeg", "/images/anturio-2.jpeg"],
+    "descricao": "Flor vermelha brilhante, símbolo de hospitalidade.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Cerâmica vermelha brilhante",
+      "Dimensões: 25cm (altura) x 18cm (diâmetro)",
+      "Rega: 2 vezes por semana",
+      "Luminosidade: Luz indireta",
+      "Flores o ano todo com cuidados adequados"
+    ]
+  },
+  {
+    "id": "30",
+    "nome": "Zamioculca",
+    "preco": 75.0,
+    "subcategoria": "Folhagens",
+    "tipoVaso": "Cimento",
+    "imagens": ["/images/zamioculca-1.jpeg", "/images/zamioculca-2.jpeg"],
+    "descricao": "Planta durável e de baixa luz, ideal para escritórios.",
+    "categorias": ["Plantas"],
+    "novo": false,
+    "caracteristicas": [
+      "Material do vaso: Cimento moderno com textura",
+      "Dimensões: 30cm (altura) x 20cm (diâmetro)",
+      "Rega: 1 vez a cada 10 dias",
+      "Luminosidade: Sombra total ou luz artificial",
+      "Quase indestrutível (ideal para iniciantes)"
+    ]
+  }
+]

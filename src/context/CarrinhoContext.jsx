@@ -1,0 +1,114 @@
+import { createContext, useState, useEffect } from "react";
+
+export const CartContext = createContext();
+
+export const CartProvider = ({ children }) => {
+  const [cart, setCart] = useState(() => {
+    const savedCart = localStorage.getItem("cart");
+    return savedCart ? JSON.parse(savedCart) : [];
+  });
+
+  // Atualiza o localStorage quando o carrinho muda
+  useEffect(() => {
+    if (cart.length > 0) {
+      localStorage.setItem("cart", JSON.stringify(cart));
+    } else {
+      localStorage.removeItem("cart");
+    }
+  }, [cart]);
+
+  // Adiciona item ao carrinho (com cor e quantidade)
+  const addToCart = (product, quantity = 1) => {
+    const productExists = cart.find((item) => item.id === product.id);
+    if (productExists) {
+      setCart(
+        cart.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + quantity }
+            : item
+        )
+      );
+    } else {
+      setCart([...cart, { ...product, quantity }]);
+    }
+  };
+
+  // Remove item do carrinho
+  const removeFromCart = (id) => {
+    setCart(cart.filter((item) => item.id !== id));
+  };
+
+  // Limpa o carrinho
+  const clearCart = () => {
+    setCart([]);
+    localStorage.removeItem("cart");
+  };
+
+  // Calcula o subtotal do carrinho (garante que price seja número)
+  const getCartTotal = () => {
+    return cart.reduce(
+      (total, item) => total + (Number(item.preco) || 0) * item.quantity,
+      0
+    );
+  };
+
+  const totalItens = () => {
+    return cart.reduce((total, item) => total + item.quantity, 0);
+  };
+
+  // Atualiza quantidade de um item
+  const updateQuantity = (id, newQuantity) => {
+    if (newQuantity > 0) {
+      setCart(
+        cart.map((item) =>
+          item.id === id ? { ...item, quantity: newQuantity } : item
+        )
+      );
+    }
+  };
+
+  const metodosEnvio = [
+    {
+      id: 1,
+      label: "Envio Padrão",
+      dias: "3-5 dias úteis",
+      valor: 15.9,
+    },
+    {
+      id: 2,
+      label: "Envio Expresso",
+      dias: "1-2 dias úteis",
+      valor: 25.9,
+    },
+  ];
+
+  const [formData, setFormData] = useState({
+    nome: "",
+    email: "",
+    telefone: "",
+    cep: "",
+    endereco: "",
+    cidade: "",
+    estado: "",
+    envio: "",
+  });
+
+  return (
+    <CartContext.Provider
+      value={{
+        cart,
+        addToCart,
+        removeFromCart,
+        updateQuantity,
+        getCartTotal,
+        clearCart,
+        totalItens,
+        metodosEnvio,
+        formData,
+        setFormData,
+      }}
+    >
+      {children}
+    </CartContext.Provider>
+  );
+};

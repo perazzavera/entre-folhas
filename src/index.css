@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import "../node_modules/preline/variants.css";
+
+@theme {
+  --color-verde-escuro: oklch(0.3 0.057453 174.7741);
+  --color-verde-oliva: oklch(0.67 0.0523 156.66);
+  --color-verde-claro: oklch(0.91 0.0508 130.71);
+  --color-bege: oklch(0.95 0.0125 75.37);
+  --color-marrom: oklch(0.5 0.0551 61.96);
+  --color-marrom-claro: oklch(0.62 0.0778 65.54);
+  --font-marca: "Fleur De Leah", cursive;
+  --font-poppins: "Poppins", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --animate-fade-up: fade-up 0.7s ease-out;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.delay-5 {
+  animation: fade-up 0.7s ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+  opacity: 0; /* necessário para ocultar antes da animação */
+}
+
+.delay-10 {
+  animation: fade-up 0.7s ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  opacity: 0; /* necessário para ocultar antes da animação */
+}
+
+body {
+  font-family: var(--font-poppins);
+}
