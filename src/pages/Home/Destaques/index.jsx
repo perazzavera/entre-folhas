@@ -72,7 +72,7 @@ export default function Destaques() {
                 <div className="absolute right-5 top-30">
                   <BotaoLink
                     to={`/produtos/${produto.categorias[0]}/${produto.subcategoria}/${produto.id}`}
-                    className=""
+                    className="lg:hidden"
                   >
                     Ver mais
                   </BotaoLink>
