@@ -43,7 +43,7 @@ export default function Destaques() {
                 <div className="absolute inset-0 bg-verde-escuro/40 flex items-center justify-center gap-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <Link
                     to={`/produtos/${produto.categorias[0]}/${produto.subcategoria}/${produto.id}`}
-                    className="w-12 h-12 rounded-full bg-verde-claro flex items-center justify-center hover:bg-accent transition-colors"
+                    className="w-12 h-12 rounded-full bg-verde-claro flex items-center justify-center "
                   >
                     <LuEye size={20} className="text-primary" />
                   </Link>
@@ -53,7 +53,7 @@ export default function Destaques() {
                       addToCart(produto);
                       notify();
                     }}
-                    className="w-12 h-12 rounded-full bg-verde-claro flex items-center justify-center hover:bg-accent transition-colors"
+                    className="w-12 h-12 rounded-full bg-verde-claro flex items-center justify-center cursor-pointer"
                   >
                     <LuShoppingBag size={20} className="text-primary" />
                   </button>

@@ -13,7 +13,7 @@ export default function Cart() {
   return (
     <>
       <section className="px-4 py-10 lg:px-20 bg-bege">
-        <h2 className="font-playfair text-3xl text-gray-800 lg:mt-4">
+        <h2 className="font-playfair text-3xl text-verde-escuro lg:mt-4">
           Carrinho de Compras
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-20 lg:items-center">
