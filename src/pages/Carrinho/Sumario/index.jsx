@@ -14,7 +14,7 @@ export default function Summary() {
   const total = subtotal + frete;
 
   return (
-    <div className="py-4 shadow-md shadow-black/20 p-4 rounded-xl bg-white">
+    <div className="py-4 shadow-md shadow-black/20 p-4 rounded-xl bg-white lg:sticky lg:top-0">
       <h3 className="font-playfair text-verde-escuro text-xl mb-4">
         Resumo da compra
       </h3>

@@ -1,18 +1,16 @@
-import { useContext } from "react";
-import { CartContext } from "../../../../context/CarrinhoContext";
+import { BotaoAcao } from "../../../../components/Botoes";
 
-export default function FormularioCartao() {
-  const {
-    cartao,
-    handleCartaoChange,
-    validade,
-    handleValidadeChange,
-    cvc,
-    handleCvcChange,
-    setCurrentStep,
-    currentStep,
-    clearCart,
-  } = useContext(CartContext);
+export default function FormularioCartao({
+  cartao,
+  currentStep,
+  setCurrentStep,
+  cvc,
+  validade,
+  handleCartaoChange,
+  handleValidadeChange,
+  handleCvcChange,
+  clearCart,
+}) {
   return (
     <form className="grid grid-cols-1 gap-4 lg:my-10">
       <div>
