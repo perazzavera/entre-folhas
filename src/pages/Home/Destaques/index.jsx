@@ -47,6 +47,7 @@ export default function Destaques() {
                   >
                     <LuEye size={20} className="text-primary" />
                   </Link>
+
                   <button
                     onClick={() => {
                       addToCart(produto);
@@ -56,11 +57,11 @@ export default function Destaques() {
                   >
                     <LuShoppingBag size={20} className="text-primary" />
                   </button>
-                  <ToastContainer />
+                  <ToastContainer position="bottom-right" />
                 </div>
               </div>
 
-              <div className="p-4">
+              <div className="p-4 relative">
                 <h3 className="font-playfair font-medium text-2xl text-verde-escuro ">
                   {produto.nome}
                 </h3>
@@ -68,6 +69,14 @@ export default function Destaques() {
                 <p className="text-primary font-semibold">
                   R$ {produto.preco.toFixed(2).replace(".", ",")}
                 </p>
+                <div className="absolute right-5 top-30">
+                  <BotaoLink
+                    to={`/produtos/${produto.categorias[0]}/${produto.subcategoria}/${produto.id}`}
+                    className=""
+                  >
+                    Ver mais
+                  </BotaoLink>
+                </div>
               </div>
             </div>
           );

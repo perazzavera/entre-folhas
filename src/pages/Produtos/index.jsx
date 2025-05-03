@@ -18,6 +18,7 @@ const subcategorias = [
   { name: "FOLHAGENS", to: "/produtos/plantas/folhagens" },
   { name: "MINI ÁRVORES", to: "/produtos/plantas/miniarvores" },
   { name: "SAMAMBAIAS", to: "/produtos/plantas/samambaias" },
+  { name: "PALMEIRAS", to: "/produtos/plantas/palmeiras" },
 ];
 
 const nomesFormatados = {
@@ -28,6 +29,7 @@ const nomesFormatados = {
   folhagens: "FOLHAGENS",
   miniarvores: "MINI ÁRVORES",
   samambaias: "SAMAMBAIAS",
+  palmeiras: "PALMEIRAS",
 };
 
 export default function Produtos() {

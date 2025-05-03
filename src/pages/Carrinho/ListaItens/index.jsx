@@ -6,7 +6,7 @@ export default function ListaItens({ cart, updateQuantity, removeFromCart }) {
       {cart.map((item) => (
         <li
           key={item.id}
-          className="flex gap-10 w-full px-4 lg:bg-bege lg:p-4 lg:rounded-xl"
+          className="flex gap-10 w-full px-4 bg-white p-4 rounded-xl"
         >
           <div className="">
             <img
