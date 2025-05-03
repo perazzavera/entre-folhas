@@ -69,13 +69,13 @@ export default function Destaques() {
                 <p className="text-primary font-semibold">
                   R$ {produto.preco.toFixed(2).replace(".", ",")}
                 </p>
-                <div className="absolute right-5 top-30">
-                  <BotaoLink
+                <div className="absolute right-3 bottom-3">
+                  <Link
                     to={`/produtos/${produto.categorias[0]}/${produto.subcategoria}/${produto.id}`}
-                    className="lg:hidden"
+                    className="lg:hidden bg-verde-escuro text-verde-claro p-1 rounded-lg animate-pulse"
                   >
                     Ver mais
-                  </BotaoLink>
+                  </Link>
                 </div>
               </div>
             </div>
